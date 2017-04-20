@@ -12,6 +12,12 @@
 		4D7E74CE1EA852F500888593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E74CC1EA852F500888593 /* Main.storyboard */; };
 		4D7E74D01EA852F500888593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E74CF1EA852F500888593 /* Assets.xcassets */; };
 		4D7E74D31EA852F500888593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E74D11EA852F500888593 /* LaunchScreen.storyboard */; };
+		4D7E74DB1EA8531E00888593 /* WGIdenticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74DA1EA8531E00888593 /* WGIdenticon.swift */; };
+		4D7E74E21EA8533E00888593 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74DD1EA8533E00888593 /* CGColorExtension.swift */; };
+		4D7E74E31EA8533E00888593 /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74DE1EA8533E00888593 /* CGImageExtension.swift */; };
+		4D7E74E41EA8533E00888593 /* IconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74DF1EA8533E00888593 /* IconGenerator.swift */; };
+		4D7E74E51EA8533E00888593 /* Identicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74E01EA8533E00888593 /* Identicon.swift */; };
+		4D7E74E61EA8533E00888593 /* JenkinsHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74E11EA8533E00888593 /* JenkinsHash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		4D7E74CF1EA852F500888593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D7E74D21EA852F500888593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7E74D41EA852F500888593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7E74DA1EA8531E00888593 /* WGIdenticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WGIdenticon.swift; sourceTree = "<group>"; };
+		4D7E74DD1EA8533E00888593 /* CGColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		4D7E74DE1EA8533E00888593 /* CGImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		4D7E74DF1EA8533E00888593 /* IconGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconGenerator.swift; sourceTree = "<group>"; };
+		4D7E74E01EA8533E00888593 /* Identicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identicon.swift; sourceTree = "<group>"; };
+		4D7E74E11EA8533E00888593 /* JenkinsHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JenkinsHash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		4D7E74C71EA852F500888593 /* WGIdenticon */ = {
 			isa = PBXGroup;
 			children = (
+				4D7E74DC1EA8533E00888593 /* Identicon */,
+				4D7E74DA1EA8531E00888593 /* WGIdenticon.swift */,
 				4D7E74C81EA852F500888593 /* AppDelegate.swift */,
 				4D7E74CA1EA852F500888593 /* ViewController.swift */,
 				4D7E74CC1EA852F500888593 /* Main.storyboard */,
@@ -62,6 +76,18 @@
 				4D7E74D41EA852F500888593 /* Info.plist */,
 			);
 			path = WGIdenticon;
+			sourceTree = "<group>";
+		};
+		4D7E74DC1EA8533E00888593 /* Identicon */ = {
+			isa = PBXGroup;
+			children = (
+				4D7E74DD1EA8533E00888593 /* CGColorExtension.swift */,
+				4D7E74DE1EA8533E00888593 /* CGImageExtension.swift */,
+				4D7E74DF1EA8533E00888593 /* IconGenerator.swift */,
+				4D7E74E01EA8533E00888593 /* Identicon.swift */,
+				4D7E74E11EA8533E00888593 /* JenkinsHash.swift */,
+			);
+			path = Identicon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7E74CB1EA852F500888593 /* ViewController.swift in Sources */,
+				4D7E74E51EA8533E00888593 /* Identicon.swift in Sources */,
+				4D7E74E61EA8533E00888593 /* JenkinsHash.swift in Sources */,
+				4D7E74E31EA8533E00888593 /* CGImageExtension.swift in Sources */,
 				4D7E74C91EA852F500888593 /* AppDelegate.swift in Sources */,
+				4D7E74DB1EA8531E00888593 /* WGIdenticon.swift in Sources */,
+				4D7E74E41EA8533E00888593 /* IconGenerator.swift in Sources */,
+				4D7E74E21EA8533E00888593 /* CGColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

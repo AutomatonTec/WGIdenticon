@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Cell : UICollectionViewCell {
+    static let identifier = "Cell_ID"
+    @IBOutlet weak var image : UIImageView!
+}
+
+
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +27,22 @@ class ViewController: UIViewController {
     }
 
 
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 100
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.identifier, for: indexPath)
+        
+        if let cell = cell as? Cell {
+            cell.image.image = WGIdenticon().icon(from: arc4random_uniform(UInt32.max), size: CGSize(width: 200, height: 200))
+        }
+        
+        return cell
+    }
 }
 
