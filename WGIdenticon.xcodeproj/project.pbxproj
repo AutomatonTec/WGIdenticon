@@ -34,6 +34,8 @@
 		4D7E74DF1EA8533E00888593 /* IconGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconGenerator.swift; sourceTree = "<group>"; };
 		4D7E74E01EA8533E00888593 /* Identicon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identicon.swift; sourceTree = "<group>"; };
 		4D7E74E11EA8533E00888593 /* JenkinsHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JenkinsHash.swift; sourceTree = "<group>"; };
+		4D7E74E71EA8563200888593 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
+		4D7E74E91EA8566B00888593 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,8 @@
 				4D7E74CC1EA852F500888593 /* Main.storyboard */,
 				4D7E74CF1EA852F500888593 /* Assets.xcassets */,
 				4D7E74D11EA852F500888593 /* LaunchScreen.storyboard */,
+				4D7E74E71EA8563200888593 /* ScreenShot.png */,
+				4D7E74E91EA8566B00888593 /* README.md */,
 				4D7E74D41EA852F500888593 /* Info.plist */,
 			);
 			path = WGIdenticon;
