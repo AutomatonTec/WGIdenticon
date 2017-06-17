@@ -19,7 +19,6 @@
 		4D7E74E51EA8533E00888593 /* Identicon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74E01EA8533E00888593 /* Identicon.swift */; };
 		4D7E74E61EA8533E00888593 /* JenkinsHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74E11EA8533E00888593 /* JenkinsHash.swift */; };
 		4D7E74F41EA859D200888593 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E74F31EA859D200888593 /* ScreenShot.png */; };
-		4D7E74F61EA85A0600888593 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E74F51EA85A0600888593 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,7 +175,6 @@
 				4D7E74E31EA8533E00888593 /* CGImageExtension.swift in Sources */,
 				4D7E74C91EA852F500888593 /* AppDelegate.swift in Sources */,
 				4D7E74DB1EA8531E00888593 /* WGIdenticon.swift in Sources */,
-				4D7E74F61EA85A0600888593 /* README.md in Sources */,
 				4D7E74E41EA8533E00888593 /* IconGenerator.swift in Sources */,
 				4D7E74E21EA8533E00888593 /* CGColorExtension.swift in Sources */,
 			);
