@@ -39,6 +39,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.identifier, for: indexPath)
         
         if let cell = cell as? Cell {
+//            cell.image.image = Identicon().icon(from: arc4random_uniform(UInt32.max), size: CGSize(width: 200, height: 200))
             cell.image.image = WGIdenticon().icon(from: arc4random_uniform(UInt32.max), size: CGSize(width: 200, height: 200))
         }
         
